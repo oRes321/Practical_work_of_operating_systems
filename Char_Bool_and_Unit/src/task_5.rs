@@ -1,10 +1,11 @@
 #[test]
 
+// Make it work, don't modify `implicitly_ret_unit` !
 fn main() {
-    let _v: () = ();
+    let v: () = ();
 
-    let v = (3, 3);
-    assert_eq!( v , v);
+    let _v = (2, 3);
+    assert_eq!(v, implicitly_ret_unit());
 
     println!("Success!");
 }
@@ -13,6 +14,7 @@ fn implicitly_ret_unit() {
     println!("I will return a ()");
 }
 
+// Don't use this one
 fn explicitly_ret_unit() -> () {
     println!("I will return a ()");
 }
