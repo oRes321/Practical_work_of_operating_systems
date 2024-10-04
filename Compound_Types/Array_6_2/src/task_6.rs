@@ -9,7 +9,7 @@ fn main() {
     let name0 = names.get(0).unwrap();
 
     // But indexing is not safe
-    let _name1 = &names[0];
+    let _name1 = names.get(2);
 
     println!("Success!");
 }
