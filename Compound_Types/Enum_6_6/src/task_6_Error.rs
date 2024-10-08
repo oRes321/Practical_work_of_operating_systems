@@ -17,7 +17,7 @@ impl List {
     }
 
     // Consume a list, and return the same list with a new element at its front
-    fn prepend(self, elem: u32) -> __ {
+    fn prepend(self, elem: u32) -> List() {
         // `Cons` also has type List
         Cons(elem, Box::new(self))
     }
@@ -43,10 +43,10 @@ impl List {
     // Return representation of the list as a (heap allocated) string
     fn stringify(&self) -> String {
         match *self {
-            Cons(head, __ tail) => {
+            Cons(head, String::from(tail)) => {
                 // `format!` is similar to `print!`, but returns a heap
                 // allocated string instead of printing to the console
-                format!("{}, {}", head, tail.__())
+                format!("{}, {}", head, tail.to_string())
             },
             Nil => {
                 format!("Nil")
@@ -54,7 +54,7 @@ impl List {
         }
     }
 }
-
+#[test]
 fn main() {
     // Create an empty linked list
     let mut list = List::new();
