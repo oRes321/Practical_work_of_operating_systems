@@ -43,7 +43,7 @@ impl List {
     // Return representation of the list as a (heap allocated) string
     fn stringify(&self) -> String {
         match *self {
-            Cons(head, String::from(tail)) => {
+            Cons(head, ref tail) => {
                 // `format!` is similar to `print!`, but returns a heap
                 // allocated string instead of printing to the console
                 format!("{}, {}", head, tail.to_string())
