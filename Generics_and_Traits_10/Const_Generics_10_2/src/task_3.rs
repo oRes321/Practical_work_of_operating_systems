@@ -1,11 +1,14 @@
 #![allow(incomplete_features)]
 #![feature(generic_const_exprs)]
+use std::mem;
 
-fn check_size<T>(val: T)
-where
-    Assert<{ core::mem::size_of::<T>() < 768 }>: IsTrue,
-{
-    //...
+fn check_size<T>(val: T) {
+    let size = mem::size_of::<T>();
+    if size < 768 {
+        println!("Size {} is valid.", size);
+    } else {
+        panic!("Size {} is too large!", size);
+    }
 }
 
 // fix the errors in main
