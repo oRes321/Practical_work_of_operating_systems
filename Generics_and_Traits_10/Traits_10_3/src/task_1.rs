@@ -15,7 +15,7 @@ impl Hello for Student {
 struct Teacher {}
 impl Hello for Teacher {
 }
-#[test]
+
 fn main() {
     let s = Student {};
     assert_eq!(s.say_hi(), "hi");
