@@ -1,1 +1,0 @@
-H:\my\ life\Основи\ алгоритмізації\ та\ програмування\Rust_PROJECT\Practical_work_of_operating_systems\Variables_3\target\release\Variables_3.exe: H:\my\ life\Основи\ алгоритмізації\ та\ програмування\Rust_PROJECT\Practical_work_of_operating_systems\Variables_3\src\main.rs

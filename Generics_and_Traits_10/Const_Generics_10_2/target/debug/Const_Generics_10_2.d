@@ -1,1 +1,0 @@
-H:\Rust_PROJECT\Practical_work_of_operating_systems\Generics_and_Traits_10\Const_Generics_10_2\target\debug\Const_Generics_10_2.exe: H:\Rust_PROJECT\Practical_work_of_operating_systems\Generics_and_Traits_10\Const_Generics_10_2\src\main.rs
