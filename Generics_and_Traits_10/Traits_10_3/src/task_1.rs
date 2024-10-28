@@ -11,11 +11,24 @@ trait Hello {
 
 struct Student {}
 impl Hello for Student {
+    fn say_hi(&self) -> String {
+        String::from("hi")
+    }
+    fn say_something(&self) -> String{
+        String::from("I'm a good student")
+    }
+
 }
 struct Teacher {}
 impl Hello for Teacher {
+    fn say_hi(&self) -> String {
+        String::from("Hi, I'm your new teacher")
+    }
+    fn say_something(&self) -> String{
+        String::from("I'm not a bad teacher")
+    }
 }
-
+#[test]
 fn main() {
     let s = Student {};
     assert_eq!(s.say_hi(), "hi");
