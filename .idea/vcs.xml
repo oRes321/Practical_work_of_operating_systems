@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+<<<<<<< HEAD
+    <mapping directory="$PROJECT_DIR$/Rust_By_Practice" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Rust_By_Practice/Generics_and_Traits_10/Const_Generics_10_2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Rust_By_Practice/Generics_and_Traits_10/as" vcs="Git" />
+=======
+    <mapping directory="$PROJECT_DIR$/Generics_and_Traits_10/Const_Generics_10_2" vcs="Git" />
+>>>>>>> b261f37 (task)
+  </component>
+</project>
