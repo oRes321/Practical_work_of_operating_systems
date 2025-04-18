@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="030cbdc6-c8b2-4350-9a7e-b6d881754c28" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Generics_and_Traits_10/Traits_10_3/src/task_4.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Generics_and_Traits_10/Traits_10_3/src/task_5.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Generics_and_Traits_10/Traits_10_3/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Generics_and_Traits_10/Traits_10_3/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Generics_and_Traits_10/Traits_10_3/src/task_2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Generics_and_Traits_10/Traits_10_3/src/task_2.rs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2pTFOFBwCc8M3AV2DWrk9tVTwWh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.rust.reset.selective.auto.import": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "H:/Rust_PROJECT/Practical_work_of_operating_systems/Rust_By_Practice/Collection_Types_11/String_11_1",
+    "nodejs_package_manager_path": "npm",
+    "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
+    "org.rust.first.attach.projects": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="030cbdc6-c8b2-4350-9a7e-b6d881754c28" name="Changes" comment="" />
+      <created>1732782124374</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732782124374</updated>
+      <workItem from="1732782125383" duration="8000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
