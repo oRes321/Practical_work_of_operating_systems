@@ -6,7 +6,7 @@
 fn main() {
     let mut s: String = String::from("hello, ");
     s.push_str("world");
-    s.push_str("!");
+    s.push('!');
 
     move_ownership(s.clone());
 
