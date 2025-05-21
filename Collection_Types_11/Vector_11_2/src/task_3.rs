@@ -5,16 +5,15 @@ fn main() {
     // Array -> Vec
     // impl From<[T; N]> for Vec
     let arr = [1, 2, 3];
-    let v1 = vec!(arr);
+    let v1 = Vec::from(arr);
     let v2: Vec<i32> = arr.to_vec();
 
     assert_eq!(v1, v2);
 
-
     // String -> Vec
     // impl From<String> for Vec
     let s = "hello".to_string();
-    let v1: Vec<u8> = s.extend();
+    let v1: Vec<u8> = s.into_bytes();
 
     let s = "hello".to_string();
     let v2 = s.into_bytes();
@@ -22,7 +21,7 @@ fn main() {
 
     // impl<'_> From<&'_ str> for Vec
     let s = "hello";
-    let v3 = Vec::new(s);
+    let v3 = Vec::from(s);
     assert_eq!(v2, v3);
 
     // Iterators can be collected into vectors
@@ -31,3 +30,4 @@ fn main() {
 
     println!("Success!");
 }
+

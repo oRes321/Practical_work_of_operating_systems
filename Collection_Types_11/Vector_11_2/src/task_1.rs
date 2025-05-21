@@ -9,15 +9,12 @@ fn main() {
     is_vec(&v);
 
     // vec!(..) and vec![..] are same macros, so
-    let   v = vec!(1, 2, 3);
+    let v = vec!(1, 2, 3);
     is_vec(&v);
 
     // In code below, v is Vec<[u8; 3]> , not Vec<u8>
     // USE Vec::new and `for` to rewrite the below code
-    let  mut v1 =  Vec::new();
-    for arr in [1,2,3]{
-        v1.push(arr)
-    }
+    let v1 = Vec::from(arr);
     is_vec(&v1);
 
     assert_eq!(v, v1);
